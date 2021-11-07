@@ -1,0 +1,8 @@
+package vladimir;
+
+public class QuickSort {
+	public void quickSort(A[], p, r)
+	{
+		
+	}
+}
