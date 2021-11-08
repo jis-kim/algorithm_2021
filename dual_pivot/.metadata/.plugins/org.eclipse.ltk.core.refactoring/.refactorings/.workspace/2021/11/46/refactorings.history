@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Vladimir_algorithm&apos;" deleteContents="false" description="Delete resource &apos;Vladimir_algorithm&apos;" element1="/Vladimir_algorithm" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636274495224"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Vladimir_algorithm&apos;" deleteContents="false" description="Delete resource &apos;Vladimir_algorithm&apos;" element1="/Vladimir_algorithm" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636274495224"/>&#x0A;<refactoring comment="Delete resource &apos;GetTogether&apos;" deleteContents="false" description="Delete resource &apos;GetTogether&apos;" element1="/GetTogether" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1636298572133"/>
 </session>
