@@ -10,7 +10,7 @@ public class QuickSort {
 		}
 	}
 	
-	private int partition(int arr[], int p, int r) {
+	public int partition(int arr[], int p, int r) {
 		
 		int pivot = arr[r];
 		int i = p - 1;

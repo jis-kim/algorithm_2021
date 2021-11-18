@@ -3,7 +3,7 @@ package vladimir;
 public class DualPivotQuickSort{
 	public void dualPivotQuickSort(int arr[], int p, int r) {
 		
-		if (r - p < 17) { //길이가 17보다 작다
+		if (r - p < 513) { //변화 측정 
 			insertionSort(arr, p, r);
 			return ;
 		}
@@ -27,7 +27,7 @@ public class DualPivotQuickSort{
 				swap(arr, g, k);
 				g = g - 1;
 				
-				if (arr[k] < p1) { //바 값이 1영역
+				if (arr[k] < p1) { //바뀐 값이 1영역
 					swap(arr, l, k);
 					l = l + 1;
 				}
@@ -47,12 +47,12 @@ public class DualPivotQuickSort{
 	private void insertionSort(int arr[], int p, int r) {
 		int j;
 		for(int i = p + 1; i <= r; i++) {
-			for(j = p; j < i; j++) { //p~i -1(정렬됨)까지 큰거 있나 확인1
+			for(j = p; j < i; j++) { //p~i -1(정렬됨)까지 큰거 있나 확인
 				if (arr[i] < arr[j])
 					break;
 			}
 			int tmp = arr[i];
-			for (int k = i; k > j; k--) //뒤부터 땡긴
+			for (int k = i; k > j; k--) //뒤부터 땡김
 				arr[k] = arr[k - 1];
 			arr[j] = tmp;
 		}
